@@ -51,5 +51,29 @@ public class Main {
             System.out.print(i + " ");
         }
         System.out.println();
+
+
+
+
+        // Домашнее задание - 3.
+
+        // Задание - 1.
+        System.out.println("Задание - 1.");
+        int  moneyPerMonth = 29000;
+        int accumulation = 0;
+        for (int i = 1; i <= 12; i++){
+            accumulation = accumulation + moneyPerMonth;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + accumulation + " рублей");
+        }
+
+        // Задание - 2.
+        System.out.println("Задание - 2.");
+        int  moneyPerMonth1 = 29000;
+        int accumulation1 = 0;
+        for (int i = 1; i <= 12; i++) {
+            accumulation1 = accumulation1 + accumulation1/100;
+            accumulation1 = accumulation1 + moneyPerMonth1;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + accumulation1 + " рублей");
+        }
     }
 }
